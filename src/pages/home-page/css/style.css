@@ -1,0 +1,33 @@
+.navbar {
+  background-color: lightslategrey;
+  border: 0;
+  box-shadow: 1px 3px 5px #0009;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.navbar ul > li {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar a[to] {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+
+.navbar a[to]:hover {
+  filter: invert();
+}
